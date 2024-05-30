@@ -1,5 +1,5 @@
 # AsyncGPT3 Sentiment Analysis
-This is a Python class that can be used to run GPT-3 sentiment analysis in an asynchronous manner. It uses the OpenAI Python library to run the GPT-3 model.
+This is a Python class that can be used to run GPT sentiment analysis in an asynchronous manner. It uses the OpenAI Python library to run the GPT model.
 
 ## Installation
 Install the OpenAI package by running ```!pip install openai``` in your Python environment.
