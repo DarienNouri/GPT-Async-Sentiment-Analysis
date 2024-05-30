@@ -5,8 +5,8 @@ nest_asyncio.apply()
 from concurrent.futures import ThreadPoolExecutor
 
 '''
-This is a class that can be used to run GPT-3 sentiment analysis in an async manner.
-It uses the openai python library to run the GPT-3 model.
+This is a class that can be used to run GPT sentiment analysis in an async manner.
+It uses the openai python library to run the GPT model.
 Parameters:
     -valid OpenAI API key
     -data source (twitter, reddit, news)
