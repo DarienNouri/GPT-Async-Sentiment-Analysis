@@ -1,4 +1,4 @@
-# AsyncGPT3 Sentiment Analysis
+# AsyncGPT Sentiment Analysis
 This is a Python class that can be used to run GPT sentiment analysis in an asynchronous manner. It uses the OpenAI Python library to run the GPT model.
 
 ## Installation
@@ -11,12 +11,12 @@ To use this class, you need a valid OpenAI API key and specify the data source f
 Here is an example usage:
 
 ```python
-import AsyncGPT3
+import AsyncGPT
 
 api_key = "YOUR_OPENAI_API_KEY"
 data_source = "twitter"
 
-asyncGPT = AsyncGPT3(api_key, data_source)
+asyncGPT = AsyncGPT(api_key, data_source)
 results = asyncGPT.main(["Text to analyze 1", "Text to analyze 2"])
 
 print(results)
